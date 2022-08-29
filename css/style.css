@@ -62,15 +62,16 @@ header .logo{
     position: relative;
 }
 .main_banner h1{
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 70px;
     color: #000000;
+    margin-bottom: 42px;
 }
 .main_banner p{
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -79,7 +80,7 @@ header .logo{
     margin-bottom: 26px;
 }
 .main_banner a{
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -98,5 +99,228 @@ header .logo{
     top: 0;
 }
 .People{
+    background: rgba(204, 204, 204, 0.3);
+    border-radius: 0;
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.for_image{
+    max-width: 385px;
+    margin-right: 50px;
+}
+.People .for_image{
+    width: 100%;
+    display: block;
+}
+.People .description{
+    max-width: 498px;
+}
+.People .description h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 31px;
+}
+.People .description p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.People .description a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.best_sellers{
+    background: #E5E5E5;
+    padding-top: 60px;
+    padding-bottom: 248px;
+
 
 }
+.our_guides{
+    max-width: 692px;
+    margin-bottom: 88px;
+}
+
+.best_sellers .our_guides h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+
+}
+.best_sellers .our_guides p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 47px;
+}
+.flex_direction_column{
+    flex-direction: column;
+}
+.our_best_sellers{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 52px;
+}
+.sellers_style_picture{
+    max-width: 1064px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.Picture_seller_description{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    max-width: 156px;
+}
+.price_style{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.add_card{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.People_sec{
+    background: rgba(204, 204, 204, 0.6);
+    border-radius: 0;
+    padding-top: 76px;
+    padding-bottom: 51px;
+
+}
+.for_image_sec{
+    max-width: 385px;
+    margin-left: 50px;
+
+
+}
+.People_sec .description_sec h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 31px;
+    justify-content: flex-end;
+    display: flex;
+
+}
+.People_sec .description_sec {
+    max-width: 513px;
+}
+.People_sec .description_sec p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 40px;
+    justify-content: flex-end;
+    display: flex;
+}
+.People_sec .description_sec a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+    justify-content: flex-end;
+    display: flex;
+}
+.People_third{
+    background: rgba(204, 204, 204, 0.3);
+    border-radius: 0;
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.for_image_sec {
+    max-width: 385px;
+    margin-right: 50px;
+}
+.People_third .description_third h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 31px;
+}
+.People_third .description_third p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.People_third .description_third a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+
+}
+.for_image_third {
+    max-width: 385px;
+    margin-right: 50px;
+}
+.People_third .description_third {
+    max-width: 513px;
+}
+
+
+
+

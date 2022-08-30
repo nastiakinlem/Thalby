@@ -202,18 +202,28 @@ header .logo{
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
     color: #000000;
-    max-width: 156px;
+    padding-top: 27px;
+    padding-bottom: 17px;
+
 }
+
+.item{
+    max-width: 309px;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 60PX;
+}
+
 .price_style{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
     color: #000000;
+    padding-bottom: 10px;
+
 }
 .add_card{
     font-family: 'Roboto',sans-serif;
@@ -221,10 +231,11 @@ header .logo{
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
     text-decoration-line: underline;
     color: #000000;
 }
+
+
 .People_sec{
     background: rgba(204, 204, 204, 0.6);
     border-radius: 0;
@@ -252,6 +263,8 @@ header .logo{
 }
 .People_sec .description_sec {
     max-width: 513px;
+    text-align: end;
+
 }
 .People_sec .description_sec p{
     font-family: 'Roboto', sans-serif;
@@ -261,8 +274,8 @@ header .logo{
     line-height: 42px;
     color: #000000;
     padding-bottom: 40px;
-    justify-content: flex-end;
     display: flex;
+
 }
 .People_sec .description_sec a{
     font-family: 'Roboto', sans-serif;

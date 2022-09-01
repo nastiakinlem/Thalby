@@ -9,10 +9,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
+
+
 </head>
+<body>
+
+
+
+<div  id="dialog" title="Quick survey">
+    <form class="assignment_search" action="#"><label>Ukraine is:
+        <select>
+            <option value="default">Choose…</option>
+            <option>The best country in the world</option>
+            <option>Capital country of great people</option>
+            <option>Wonderland</option>
+        </select>
+    </label></form>
+    <div>
+        <button value="default">Cancel</button>
+        <button type="submit">Confirm </button>
+</div>
+</div>
+
+
 
 <header>
     <div class="container d-flex justify-between align-center">
@@ -37,11 +61,15 @@
                     <img src="images/frame.svg" alt="insta">
                 </a>
             </li>
-            <li>
+
+            <li id="opener">
                 <a href="#" title="Search">
-                    <img src="images/lupa.svg" alt="Search">
+                   <img src="images/lupa.svg" alt="Search">
                 </a>
             </li>
+
+
+
             <li>
                 <a href="#" title="Shop">
                     <img src="images/shop.svg" alt="shop">
@@ -139,7 +167,10 @@
     </div>
 </section>
 
-<body>
 
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="jss/script.js"></script>
 </body>
 </html>

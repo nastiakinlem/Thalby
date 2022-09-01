@@ -1,0 +1,111 @@
+
+
+
+$main_font: 'Roboto', sans-serif;
+$white_color: #FFFFFF;
+$main_color: #000000;
+
+
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
+
+header {
+  nav {
+  }
+
+  li {
+    margin-right: 28px;
+
+    &first-of-type {
+      margin-right: 28px;
+    }
+  }
+
+  a {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+    text-decoration: none;
+  }
+}
+
+header li:first-of-type {
+  margin-right: 16px;
+}
+
+.container{
+  margin: auto;
+  max-width: 1064px;
+@include max-screen(992px){
+  padding: 0 15px;
+}
+}
+
+
+header li:last-of-type {
+  margin-left: 7px;
+}
+
+header nav li:last-of-type {
+  margin-left: 0;
+}
+
+header .container {
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  top: 13px;
+}
+
+.main_banner {
+  padding: 90px 0;
+  background-color: #F0EFEB;
+  position: relative;
+}
+
+.main_banner h1 {
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: $main_color;
+  margin-bottom: 42px;
+}
+
+.main_banner a {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: $white_color;
+  display: inline-block;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding: 7px 23px;
+  text-decoration: none;
+}
+
+.People .description p {
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: $main_color;
+  padding-bottom: 40px;
+}

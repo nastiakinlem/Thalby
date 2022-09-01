@@ -13,14 +13,11 @@
     <link rel="stylesheet" href="https:/resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-
+    <link rel="stylesheet" href="css/style_preproc.scss">
 
 
 </head>
-<body>
-
-
-
+<body class="light">
 <div  id="dialog" title="Quick survey">
     <form class="assignment_search" action="#"><label>Ukraine is:
         <select>
@@ -35,27 +32,21 @@
         <button type="submit">Confirm </button>
 </div>
 </div>
-
-
-
 <header>
-    <div class="container d-flex justify-between align-center">
-        <nav>
-            <ul class="d-flex align-center">
-                <li> Shop</li>
+    <div class="header-wrapper container d-flex justify-between align-center">
+        <div class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Shop</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Collections </a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Try a Free Guide</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Stories</a></li>
+                </ul>
+            </div>
+        </div>
 
-                <li> Collections </li>
-
-                <li> Try a Free Guide </li>
-
-                <li> Stories </li>
-
-            </ul>
-        </nav>
-        <a href="#">
-            <img src="images/logo.svg" alt="logo">
-        </a>
-        <ul class="align-center d-flex">
+            <a  href="#" class="logo"><img src="images/logo.svg" alt="logo"></a>
+        <ul class="align-center d-flex nav_on_the_top">
             <li>
                 <a href="#" title="Instagram">
                     <img src="images/frame.svg" alt="insta">
@@ -64,10 +55,9 @@
 
             <li id="opener">
                 <a href="#" title="Search">
-                   <img src="images/lupa.svg" alt="Search">
+                    <img src="images/lupa.svg" alt="Search">
                 </a>
             </li>
-
 
 
             <li>
@@ -76,9 +66,24 @@
                 </a>
             </li>
         </ul>
-
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
     </div>
 </header>
+
+
+
+
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
+<a href="https://front.codes/" class="link-to-portfolio hover-target" target=”_blank”></a>
+
+
 <section class="main_banner">
     <div class="container">
         <h1> Fall deeper in love <br> with <br> humanity. </h1>
@@ -166,6 +171,164 @@
         </div>
     </div>
 </section>
+
+<section class="balls_style_section">
+    <div class="container align-center">
+        <p class="some_features">Some of the features that<br>make Thalby guides unique</p>
+    </div>
+    <div class="d-flex flex_container">
+        <div class="balls_details ball_aqua">
+            <img src="images/aqua.svg" alt="aqua">
+            <p class="Balls_description"> Written by<br>locals</p>
+        </div>
+        <div class="balls_details ball_green" >
+            <img src="images/green.svg" alt="aqua">
+            <p class="Balls_description"> Packed with<br>insight</p>
+        </div>
+        <div class="balls_details ball_purple">
+            <img src="images/dark_green.svg" alt="aqua">
+            <p class="Balls_description"> Interviews with<br>diverse voices</p>
+        </div>
+        <div class="balls_details brown_ball">
+            <img src="images/brown.svg" alt="aqua">
+            <p class="Balls_description"> Key facts and<br>etiquette tips</p>
+        </div>
+        <div class="balls_details red_ball">
+            <img src="images/red.svg" alt="aqua">
+            <p class="Balls_description"> A concise<br>1-hour read</p>
+        </div>
+        <div class="balls_details  ball_purple">
+            <img src="images/purple.svg" alt="aqua">
+            <p class="Balls_description">Instant<br>digital access</p>
+        </div>
+    </div>
+    <h3> Each Thalby guide includes interviews with<br>a range of fascinating voices, such as</h3>
+</section>
+
+<section class="people_on_the_bottom d-flex">
+    <div class="d-flex container justify-between align-center">
+        <div class="item_for_people_bottom">
+            <img src="images/man_with_beard.png" alt="man">
+            <h4>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</h4>
+            <p>
+                Camille Muller,
+                <br>Landscape Designer, France</br>
+            </p>
+            <a href="#">Discover</a>
+        </div>
+
+        <div class="item_for_people_bottom">
+            <img src="images/woman_tail.png" alt="man">
+            <h4>"Magic is not magic in the sense that I can just wish for anything.</h4>
+            <p>
+                Sonia Kowalewski,
+                <br>Witch, Germany</br>
+            </p>
+            <a href="#">Discover</a>
+        </div>
+
+        <div class="item_for_people_bottom">
+            <img src="images/girl_hat.png" alt="man">
+            <h4>"I was eight years old when I entered my first competition. I won it."</h4>
+            <p>
+                Lilly Stoephasius,
+                <br>Skateboarder, Germany</br>
+            </p>
+            <a href="#">Discover</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="keep_in_touch">
+
+        <h3>
+            Keep in touch
+        </h3>
+        <p>
+            Get our travel advice, global views and travel freebies in your<br> inbox
+        </p>
+    <div class="container align-center form_bottom">
+        <form name="form" action="#" method="post" class="bottom1" >
+
+            <input type="text" name="first_name" value="First name">
+            <input type="text" name="last_name" value="Last name">
+        </form>
+
+        <form  name="form" action="#" method="post" class="second_form_bottom">
+            <input type="email" name="email" value="Email">
+        </form>
+
+        <a>Subscribe</a>
+    </div>
+</section>
+
+<footer>
+    <div class="container d-flex  justify-between">
+        <div class="logo_bottom_container">
+        <a href="#" class="logo_bottom">
+<img src="images/logo_bottom.svg" alt="logo">
+        </a>
+            <ul class="d-flex social_icons">
+                <li>
+                    <a href="#">
+                        <img src="images/facebook.svg" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/insta.svg" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/twitter.svg" alt="Facebook">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    <h4>Thalby LLC © 2021</h4>
+
+    <div class="container about_bottom">
+        <ul>
+            <li>
+                <a>ABOUT</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="#">Terms and Conditions</a>
+            </li>
+            <li>
+                <a href="#">Write for Us</a>
+            </li>
+        </ul>
+    </div>
+
+        <div class="container contact_bottom">
+            <ul>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#">Email hi@thalby.com</a>
+                </li>
+
+                <li>
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
 
 
 

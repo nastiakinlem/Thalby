@@ -335,5 +335,25 @@ header .logo{
 }
 
 
+.assignment_search option{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+
+.assignment_search select{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
